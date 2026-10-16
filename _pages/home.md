@@ -2,6 +2,7 @@
 permalink: /
 sidebar:
     - image: "assets/images/headshot.jpg"
+layout: archive
 ---
 I am a software engineer based in Cambridge, United Kingdom. I have been working in Software Engineering since 2008, and as a Team Lead since 2020. My current role is at Flagstone, a cash deposit platform. Before moving into Software Engineering, I was a Secondary School (High School) teacher, and before that I was a scientist in the Steel Industry. I hold a degree in Materials Science and Engineering from Imperial College London.
 

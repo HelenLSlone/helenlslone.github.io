@@ -33,7 +33,7 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "default", "dark", "d
 plugins:
   - jekyll-include-cache
 
-include: ["_pages"]
+include: ["_pages", "_posts"]
 defaults:
   # _pages
   - scope:
@@ -41,6 +41,14 @@ defaults:
       type: pages
     values:
       layout: single
+ # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+
+paginate: 5
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 export OLLAMA_CONTEXT_LENGTH=65536
 export OLLAMA_API_BASE="http://localhost:11434"
 ARCHITECT_MODEL="qwen3.6:27b"
@@ -9,7 +11,7 @@ start_ollama() {
        echo "Ollama is already running"
     else
         echo "Starting Ollama..."
-        ollama serve &
+        ollama serve > ~/.ollama/serve.log 2>&1 &
     fi
 }
 

@@ -4,6 +4,7 @@ export OLLAMA_CONTEXT_LENGTH=65536
 export OLLAMA_API_BASE="http://localhost:11434"
 ARCHITECT_MODEL="qwen3.6:27b"
 EDITOR_MODEL="qwen2.5-coder:32b"
+OLLAMA_LOG_FILE="${HOME}/.ollama/serve.log"
 
 start_ollama() {
     if pgrep -f "ollama serve" > /dev/null; 
@@ -11,7 +12,8 @@ start_ollama() {
        echo "Ollama is already running"
     else
         echo "Starting Ollama..."
-        ollama serve > ~/.ollama/serve.log 2>&1 &
+        rm -f $OLLAMA_LOG_FILE
+        ollama serve > $OLLAMA_LOG_FILE 2>&1 &
     fi
 }
 

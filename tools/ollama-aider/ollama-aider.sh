@@ -24,7 +24,6 @@ case "$1" in
         aider --model ollama_chat/${ARCHITECT_MODEL}
         ;;
     stop)
-        echo "Stopping Ollama..."
         stop_ollama
         ;;
     *)

@@ -50,6 +50,15 @@ defaults:
 
 paginate: 5
 
+author:
+  name: "Helen Slone"
+  avatar: "/assets/images/headshot.jpg"
+  bio: "Recovering Front End Developer."
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://helenlslone.github.io"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -19,11 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Helen Slone
-email: helenlslone@gmail.com
+email: helen.slone@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
   Software Engineer in Cambridge UK documenting their AI experiments.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "helenlslone.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://helenlslone.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  HelenLSlone
 atom_feed:
   hide: true

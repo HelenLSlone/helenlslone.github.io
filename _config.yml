@@ -49,6 +49,7 @@ defaults:
       layout: single
 
 paginate: 5
+navigation: "main"
 
 author:
   name: "Helen Slone"
